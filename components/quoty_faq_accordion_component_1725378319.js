@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About BlockInfo Finder</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What is BlockInfo Finder?", description: "BlockInfo Finder is an innovative app designed to help users discover and stay updated on the latest blockchain information, trends, and developments across various networks and projects.", expanded: false },
+        { title: "How does BlockInfo Finder work?", description: "Our app uses advanced algorithms to crawl multiple sources, including blockchain networks, news sites, and social media, to aggregate and present the most relevant and up-to-date blockchain information in a user-friendly interface.", expanded: false },
+        { title: "What kind of information can I find using this app?", description: "BlockInfo Finder provides a wide range of information, including new blockchain projects, protocol updates, market trends, DeFi innovations, NFT releases, and regulatory news affecting the blockchain ecosystem.", expanded: false },
+        { title: "Is BlockInfo Finder suitable for beginners?", description: "Absolutely! While BlockInfo Finder caters to blockchain enthusiasts of all levels, we've designed the app to be intuitive and informative for beginners, offering explanations and resources to help you understand the latest blockchain developments.", expanded: false }
       ]
     };
   },
